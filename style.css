@@ -114,3 +114,20 @@ h2 {
   min-width: 600px;
   text-align: right;
 }
+
+.signup {
+  margin: 50px 10vw;
+  display: flex;
+  height: 100px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 0 5vw;
+  justify-content: space-between;
+  align-items: center;
+}
+h3 {
+  margin: 0;
+}
+.signup p {
+  margin: 0;
+}
