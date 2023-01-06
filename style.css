@@ -39,22 +39,26 @@ li {
   padding: 60px 15vw;
 }
 
-.rightside {
-  margin-left: auto;
+.rightside,
+.leftside {
   width: 500px;
   height: 300px;
-  background-color: lightgray;
+  min-width: 350px;
+}
+
+.rightside {
+  display: flex;
+  align-self: center;
+  justify-content: right;
+}
+
+.rightside img {
   border-radius: 10px;
 }
 
 h1 {
   font-size: 48px;
   font-weight: 900;
-}
-
-.leftside {
-  width: 500px;
-  height: 300px;
 }
 
 .info {
