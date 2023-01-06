@@ -131,3 +131,11 @@ h3 {
 .signup p {
   margin: 0;
 }
+
+.footer {
+  background-color: #1f2937;
+  font-size: 16px;
+  color: #f9faf8;
+  text-align: center;
+  padding: 30px;
+}
